@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import TodoList from './todo_list.jsx';
-
-//functional component 
+import allTodos from '../../reducers/selectors';
+//functional component
 
 const mapStateToProps = state => ({
   todos: allTodos(state)

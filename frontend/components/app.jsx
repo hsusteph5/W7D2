@@ -1,5 +1,5 @@
 import React from 'react';
-import Connect from './todos/todo_list_container.jsx';
+import TodoListContainer from './todos/todo_list_container.jsx';
 
 
 
@@ -8,7 +8,7 @@ class App extends React.Component{
     return (
       <div>
         <h1> This is app </h1>
-        <Connect />
+        <TodoListContainer />
       </div>
 
     );

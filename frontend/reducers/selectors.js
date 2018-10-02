@@ -6,4 +6,3 @@ export const allTodos = (state) => {
   );
 
 };
-window.allTodos = allTodos;
